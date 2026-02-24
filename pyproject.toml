@@ -1,0 +1,26 @@
+[project]
+name = "pyrender"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "freetype-py>=2.5.1",
+    "imageio>=2.37.2",
+    "networkx>=3.6.1",
+    "numpy>=2.4.2",
+    "pillow>=12.1.1",
+    "pyglet<3",
+    "pyopengl>=3.1.10",
+    "pyopengl-accelerate>=3.1.10",
+    "six>=1.17.0",
+    "sphinx>=9.1.0",
+    "sphinx-automodapi>=0.22.0",
+    "sphinx-rtd-theme>=3.1.0",
+    "trimesh>=4.11.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
